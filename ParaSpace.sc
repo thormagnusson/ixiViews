@@ -219,6 +219,7 @@ ParaSpace {
 					    			Rect(node.rect.left+node.size+5, node.rect.top-3, 80, 16));
 					    	});
 				    	},{
+					    	//[\node_string, node.string].postln;
 					    	node.string.drawInRect(Rect(node.rect.left+node.size+5,
 				    								node.rect.top-3, 80, 16),   
 				    								font, fontColor);
